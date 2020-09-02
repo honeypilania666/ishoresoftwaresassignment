@@ -36,6 +36,7 @@
     cursor: pointer;
     background-color: #fff;
     box-shadow: 5px 10px rgba(172, 172, 172, 0.1);
+    transition: all ease 0.5s;
 }
 
 .imagemodal{
