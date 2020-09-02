@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* mainheader styling */
+
+
+.carousel-item{
+    position: relative;
+}
+.carousel-caption{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.carousel-caption h1{
+    background: coral;
+}
+
+#services{
+    background-color: rgb(245, 245, 245);
+}
+
+.servicetop{
+    background: rgb(219, 219, 219);
+}
+.card{
+    background-color:lightslategrey;
+}
+.card:hover{
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 5px 10px rgba(172, 172, 172, 0.1);
+}
+
+.imagemodal{
+    box-shadow: 5px 10px rgba(172, 172, 172, 0.1);
+}
+.imagemodal:hover{
+    transform:translateY(-10px);
+    cursor: pointer;
+    box-shadow: 10px 30px 20px 10px rgba(172, 172, 172, 0.1);
+}
+
+.chooseusarea ul{
+    list-style-type: none;
+}
+
+.footersection{
+    background-color:rgba(126, 222, 235, 0.6)
+}
+
+.footertext{
+    font-size:14px;
+}
+.footersection ul{
+    list-style-type: none;
+}
+
+.footer{
+    background-color: rgba(192, 231, 233, 0.7);
+}
+.socialicons i{
+    margin-right: 5px;
+}
+.socialicons i:nth-child(1){
+    color:rgb(98, 93, 170);
+}
+.socialicons i:nth-child(2){
+    color:rgb(0, 238, 255);
+}
+.socialicons i:nth-child(3){
+    color:rgb(86, 147, 216);
+}
+.socialicons i:nth-child(4){
+    color:rgb(253, 34, 162);
+}
+.socialicons i:nth-child(5){
+    color:rgb(253, 67, 34);
+}
